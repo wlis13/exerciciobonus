@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'fonte';
+    src: url( FascinateInline-Regular.ttf   );
+}  
+body{
+font-family:sans-serif;
+background-color: chocolate;
+
+}
+/*formatação do cabeçalho*/
+header.cabeçalho {
+height: 150px;
+border-bottom: 10px solid chocolate;
+
+
+
+
+}
+header.cabeçalho h1{
+position: absolute;
+color: chocolate;
+top: 0px;
+left: 50px;
+font-size: 40pt;
+font-family: 'fonte';
+text-decoration: underline;
+}
+header.cabeçalho a{
+position: relative;
+top: 110px;
+left: 370px;
+text-decoration: none;
+text-transform: uppercase;
+background-color: chocolate;
+padding: 10px;
+color: white;
+border-radius: 10px;
+margin: 2px;
+
+}
+header.cabeçalho a:hover{
+box-shadow: 2px 2px 5px chocolate;
+font-weight: 600;
+
+
+}
+/*formatação do texto principal*/
+section.section_principal p{
+text-indent: 15px;
+line-height: 22px;
+text-transform: uppercase;
+margin-left: 20px;
+padding-right: 10px;
+border-right: 4px solid chocolate;
+color: rgb(201, 143, 102);
+}
+section.section_principal h2{
+background-color: chocolate ;
+color: rgba(255, 255, 255, .5);
+position: relative;
+text-shadow: 2px 2px 1px white;
+border-right: 4px solid chocolate;
+
+
+}
+section.section_principal img {
+    position: relative;
+    top: 0px;
+    width: 500px;
+    margin: 20px;
+    height: 400px;
+    box-shadow: 3px 3px 7px chocolate;
+    display: block;
+  
+
+}
+section.section_principal figcaption{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    color: white;
+    background-color: rgba(0, 0, 0,.3);
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 3px 6px chocolate;
+    opacity: 0;
+    transition: 1s;
+}
+section.section_principal figcaption:hover{
+opacity: 1;
+
+
+}
+/*formatação da sesão restaurante*/
+section#section_restaurante{
+display: flex;
+
+
+
+}
+section#section_restaurante section#first_image{
+position: relative;
+
+
+}
+/*formatação da sesão chef*/
+section#section_chef{
+display: flex;
+
+
+}
+section#section_chef section#secund_image{
+position: relative;
+
+
+}
+/*formatação da sesão equipe*/
+section#section_equipe{
+display: flex;
+
+
+
+}
+section#section_equipe section#third_image{
+position: relative;
+
+
+
+}
+section#section_equipe2{
+display: flex;
+
+
+}
+section#section_equipe2 section#fourth_image{
+position: relative;
+
+
+
+}
+
+/*formatação da sesão menu*/
+section#section_menu{
+border-top: 4px solid chocolate;
+
+
+}
+section#section_menu ul{
+list-style: none;
+
+
+}
+section#section_menu h2{
+background-color: chocolate;
+text-align: center;
+color: rgba(255, 255, 255, .5);
+text-shadow: 2px 2px 1px white;
+}
+section#section_menu section#section_menu_right{
+margin-left: 220px;
+border-left: 4px solid chocolate;
+padding-left: 100px;
+
+}
+section#section_menu section#section_menu_left_right{
+display: flex;
+margin-left: 60px;
+
+
+}
+section#section_menu section#section_menu_left_right h3{
+color: chocolate;
+text-decoration: underline;
+
+}
+section#section_menu section#section_menu_left_right li{
+text-align: left;
+line-height: 25px;
+color: rgb(201, 143, 102);
+font-weight: 600;
+
+}
+/*formatação da sesão de contatos*/
+section#section_contato{
+text-align: center;
+color: chocolate;
+line-height: 23px;
+
+
+}
+section#section_contato p{
+margin-top: 20px;
+
+
+}
+/*formatação da sesão footer*/
+footer#footer{
+clear: both;
+border-top: 10px solid chocolate;
+text-align: center;
+color: chocolate;
+display: block;
+}
+footer#footer li{
+display: inline-block;
+margin: 10px;
+
+}
+div#All{
+background-color: white;
+
+}
