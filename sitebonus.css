@@ -227,6 +227,7 @@ div#forms{
 background-color: white;
 height: 700px;
 line-height: 50px;
+display: flex;
 
 }
 div#forms label.titulos{
@@ -253,5 +254,67 @@ position: absolute;
 left: 400px;
 top: 10px;
 
+
+}
+div#forms select#quantas_pessoas{
+background-color: chocolate;
+position: relative;
+left: 40px;
+padding: 10px;
+border-radius: 10px;
+color: white;
+font-size: 15px;
+top: -10px;
+
+}
+div#forms select#quantas_pessoas:hover{
+font-weight: 800;
+box-shadow: 2px 2px 5px black;
+
+
+}
+div#feedback label{
+position: absolute;
+top: 120px;
+left: 530px;
+background-color: chocolate;
+color: white;
+border-radius: 10px;
+font-weight: 900;
+box-shadow: 2px 2px 5px black;
+
+
+}
+div#feedback textarea{
+position: absolute;
+top: 190px;;
+left: 500px;
+box-shadow: 3px 3px 6px chocolate;
+width: 450px;
+
+}
+div#feedback button{
+position: absolute;
+top: 535px;
+left: 500px;
+padding: 10px;
+width: 120px;
+background-color: chocolate;
+color: white;
+font-size: 20px;
+border-radius: 10px;
+
+
+}
+div#feedback button:hover{
+box-shadow: 2px 2px 4px black;
+font-weight: 700;
+
+}
+textarea#feedback{
+color: chocolate;
+font-family: sans-serif;
+font-size: 15px;
+font-weight: 700;
 
 }

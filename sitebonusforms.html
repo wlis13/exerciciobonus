@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="sitebonus.css">
 </head>
 <body>
-    <div id="forms">
+   
     
     <form>
-        <fieldset>
+        <div id="forms">
 
             <div>
             <ul>
@@ -39,18 +39,21 @@
             </ul>
 
 
-            <select  id="quantas pessoas?">
+            <select  id="quantas_pessoas">
                 <option selected disabled value="">Selecione</option>
                 <option>2 lugares</option>
                 <option>4 lugares</option>
                 <option>8 lugares</option>
                 <option>mais de 8 lugares</option>
             </select>
+           
             </div>
 
 
-            <div>
-
+            <div id="feedback">
+                <label>Conte-nos, o que achou de nossos serviços?</label>
+                <textarea  id="feedback" cols="60" rows="20"></textarea>
+                <button type="submit">Concluido</button>
             </div>
 
 
@@ -65,9 +68,8 @@
             </figure>
             
         
-        
-    </fieldset>
+        </div>
     </form>
-    </div>
+    
 </body>
 </html>
