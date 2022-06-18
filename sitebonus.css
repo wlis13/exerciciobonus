@@ -11,14 +11,15 @@ background-color: chocolate;
 header.cabeçalho {
 height: 200px;
 border-bottom: 10px solid chocolate;
-background: url(../exerciciobonussite/banner.jpg);
-background-color: rgb(207, 193, 183);
+background: url(../exerciciobonussite/banner.jpg) ;
 background-repeat: no-repeat;
 background-size: cover;
+
+
 }
 header.cabeçalho h1{
 position: absolute;
-color: chocolate;
+color: rgb(255, 106, 0);
 top: 0px;
 left: 50px;
 font-size: 40pt;
