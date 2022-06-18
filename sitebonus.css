@@ -223,3 +223,35 @@ div#All{
 background-color: white;
 
 }
+div#forms{
+background-color: white;
+height: 700px;
+line-height: 50px;
+
+}
+div#forms label.titulos{
+background-color: chocolate;
+padding: 10px;
+color: white;
+border-radius: 10px;
+
+
+}
+div#forms li{
+list-style: none;
+font-weight: 900;
+
+}
+div#forms input{
+font-weight: 900;
+
+
+
+}
+div#forms img{
+position: absolute;
+left: 400px;
+top: 10px;
+
+
+}
