@@ -159,9 +159,17 @@ color: rgba(255, 255, 255, .5);
 text-shadow: 2px 2px 1px white;
 }
 section#section_menu section#section_menu_right{
-margin-left: 220px;
+margin-left: 200px;
 border-left: 4px solid chocolate;
 padding-left: 100px;
+
+}
+section#section_menu_left figure{
+display: block;
+position: absolute;
+left: 200px;
+top: 2300px;
+width: 100px;
 
 }
 section#section_menu section#section_menu_left_right{
