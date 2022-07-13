@@ -4,72 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reservas</title>
-    <link rel="stylesheet" href="sitebonus.css">
-</head>
-<body>
+    <title>reservas</title>
    
+    <link rel="stylesheet" href="bootstrap.rtl.css">
+    <link rel="stylesheet" href="sitebonus.css">
     
-    <form>
-        <div id="forms">
+</head>
+<body class="container all-container">
+    <header>
+        <h1>faça sua reserva</h1>
+    </header>
+    <fieldset>
+        <form action="">
+        <h4>escolha o melhor horário</h4>
+        <div class="container-radio">
 
-            <div>
-            <ul>
-            
-            <li><label class="titulos">FullName</label></li>
-            <input type="text" name="Sobrenome" id="Sobrenome">
-            <li><label class="titulos">Horários disponíveis</label></li>
-            <label>
-            <li><input type="radio" name="horarios" value=" ás 11 Hrs">ás 11 Hrs</li>
-            </label>
-            <label>
-                <li><input type="radio" name="horarios" value="ás 12 Hus"> ás 12 Hrs</li>
-            </label>
-            <label>
-                <li><input type="radio" name="horarios" value="ás 13 Hrs">ás 13 Hrs</li>
-            </label>
-            <label>
-                <li><input type="radio" name="horarios" value="ás 14 Hrs">ás 14 Hrs</li>
-            </label>
-            <label>
-                <li><input type="radio" name="horarios" value="ás 15 Hrs">ás 15 Hrs</li>
-            </label>
-                <li><label class="titulos">quantas pessoas?</label></li>
-
-            </ul>
-
-
-            <select  id="quantas_pessoas">
-                <option selected disabled value="">Selecione</option>
-                <option>2 lugares</option>
-                <option>4 lugares</option>
-                <option>8 lugares</option>
-                <option>mais de 8 lugares</option>
-            </select>
-           
-            </div>
-
-
-            <div id="feedback">
-                <label>Conte-nos, o que achou de nossos serviços?</label>
-                <textarea  id="feedback" cols="60" rows="20"></textarea>
-                <button type="submit">Concluido</button>
-            </div>
-
-
-
-
-
-
-
-
-            <figure>
-                <img src="Sem título.png" alt="">
-            </figure>
-            
-        
+        <div class="form-check">
+            <input class="form-check-input n1" type="radio" name="flex" id="flexOne">
+            <label class="form-check-label" for="flexOne">11 Hrs</label>
         </div>
-    </form>
-    
+        <div  class="form-check">
+            <input class="form-check-input n1" type="radio" name="flex" id="flexTwo">
+            <label class="form-check-label" for="flexTwo">12 Hrs</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input n1" type="radio" name="flex" id="flexThree">
+            <label class="form-check-label" for="flexThree">13 Hrs</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input n1" type="radio" name="flex" id="flexFour">
+            <label class="form-check-label" for="flexFour">14 Hrs</label>
+        </div>
+
+        </div>
+
+        <div class="selected-container">
+            <h4>mesa para quantas pessoas?</h4>
+            <div class="all-text">
+            <div>
+            <select class="form-select mt-4 select-container" name="" id="">
+                <option selected value=""></option>
+                <option value="">2 lugares</option>
+                <option value="">4 lugares</option>
+                <option value="">6 lugares</option>
+                <option value="">8 lugares</option>
+                <option value="">mais de 8 lugares</option>
+            </select>
+        </div>
+        <form  action="">
+        <div class="input-control">
+
+        <div>  
+            <label class="col-form-label" for="name">Nome Completo:</label>
+                <input class="form-control" type="text" id="name">
+          
+        </div>
+        <div>
+            <label class="col-form-label" for="input-email">Email:</label>
+            <input class="form-control" id="input-email" type="email">
+        </div>
+        <div>
+            <label class="col-form-label" for="telefone">fone:</label>
+            <input class="form-control" type="tel" id="telefone" placeholder="EX: (00) 0000-000">
+        </div>
+
+        </div>
+
+        </div>
+
+        </form>
+        
+        <div class="form-floating">
+            <h4>Conte-nos como foi sua experiência em nosso restaurante</h4>
+            <textarea class="form-control textArea" name="feedback" id="input-textarea" cols="30" rows="40">
+            </textarea>
+        </div>
+        <div class="button">
+        <button class="mt-4 mb-4 btn btn-secontary" type="submit">Enviar</button>
+        <button class="mt-4 mb-4 me-4 btn btn-secontary" type="reser">Apagar</button>
+        </div>
+        </form>
+    </fieldset>
+<script>
+    const control = document.querySelector('.form-control');
+    control.addEventListener('click', () =>{
+        control.style.backgroundColor = 'bisque';
+    })
+</script>
+
 </body>
 </html>
